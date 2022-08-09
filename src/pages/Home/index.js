@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import Header from "../../components/Header";
+import Nav from "../../components/NavBar";
 import { useNavigate  } from "react-router-dom";
 
 
@@ -16,9 +17,16 @@ export default function Home({theme, currentPage, setCurrentPage}){
     };
 
     return (
-        <div>
-            <div className="header">
-                <Header theme={theme} changePage={changePage} />
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <Nav />
+                </div>
+            </div>
+            <div className="row justify-content-md-center">
+                <div className="header">
+                    <Header theme={theme} changePage={changePage} />
+                </div>
             </div>
         </div>
     )
