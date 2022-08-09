@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -7,16 +7,15 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import LiftingBlog from "./pages/LiftingBlog"
 
-export default function Router({theme, setTheme}) {
+export default function App({theme, setTheme}) {
     const [currentPage, setCurrentPage] = useState("");
 
     return (
-        <BrowserRouter>
-            <Switch>
-                <Route exact path="/">
-                    <Home theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>     
                 </Route>
-                <Route exact path="/project">
+                {/* <Route exact path="/project">
                     <Projects theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
                 </Route>
                 <Route exact path="/skills">
@@ -30,8 +29,8 @@ export default function Router({theme, setTheme}) {
                 </Route>
                 <Route exact path="/blogs">
                     <LiftingBlog theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
-                </Route>
-            </Switch>
-        </BrowserRouter>
+                </Route> */}
+            </Routes>
+        </Router>
     )
-}
+};

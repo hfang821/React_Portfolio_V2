@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Router from "./Router";
 import Wrapper from "./components/Wrapper";
-import './App.css';
 
 function App() {
   const[theme, setTheme] = useState(false);
