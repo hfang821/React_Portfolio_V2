@@ -16,6 +16,7 @@ export default function Nav({theme, currentPage}) {
 
     return (
         <Navbar collapseOnSelect expand="xs" variant={theme ? "light" : "dark"}>
+            <Navbar.Brand className="op0"></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className={theme ? "dropdown" : "dropdown-dark"}>
             <Container className={theme ? "dropdown-border" : "dropdown-border-dark"}>
@@ -23,7 +24,7 @@ export default function Nav({theme, currentPage}) {
                         <Col>
                             <div onClick={(e) => changePage(e, "/")}>
                                 {currentPage === "home" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
-                                <h1 className="first-drop-text" style={{ display: "inline" }}>home</h1>
+                                <h1 className="first-drop-text" style={{ display: "inline" }}>Home</h1>
                             </div>
                         </Col>
                     </Row>
@@ -31,7 +32,7 @@ export default function Nav({theme, currentPage}) {
                         <Col>
                             <div onClick={(e) => changePage(e, "/project")}>
                                 {currentPage === "project" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
-                                <h1 className="second-drop-text" style={{ display: "inline" }}>projects</h1>
+                                <h1 className="second-drop-text" style={{ display: "inline" }}>Projects</h1>
                             </div>
                         </Col>
                     </Row>
@@ -39,15 +40,31 @@ export default function Nav({theme, currentPage}) {
                         <Col>
                             <div onClick={(e) => changePage(e, "/skills")}>
                                 {currentPage === "skills" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
-                                <h1 className="third-drop-text" style={{ display: "inline" }}>skills</h1>
+                                <h1 className="third-drop-text" style={{ display: "inline" }}>Skills</h1>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <div onClick={(e) => changePage(e, "/aboutme")}>
-                                {currentPage === "aboutme" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
-                                <h1 className="fourth-drop-text" style={{ display: "inline" }}>about me</h1>
+                            <div onClick={(e) => changePage(e, "/about")}>
+                                {currentPage === "about" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
+                                <h1 className="fourth-drop-text" style={{ display: "inline" }}>About Me</h1>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <div onClick={(e) => changePage(e, "/contact")}>
+                                {currentPage === "contact" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
+                                <h1 className="fourth-drop-text" style={{ display: "inline" }}>Contact me</h1>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <div onClick={(e) => changePage(e, "/blogs")}>
+                                {currentPage === "blogs" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
+                                <h1 className="fourth-drop-text" style={{ display: "inline" }}>Blog</h1>
                             </div>
                         </Col>
                     </Row>

@@ -1,0 +1,38 @@
+.dropdown-border-dark {
+    border-bottom: 1px solid #7bdff2;
+    padding-bottom: 5px;
+}
+
+.navbar .container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+#header {
+    margin-top: 30%;
+    /* margin-left: 20%; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: fit-content;
+}
+
+.footer-dark, .header-dark {
+    color: #7bdff2;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
