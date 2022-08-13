@@ -7,17 +7,19 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import LiftingBlog from "./pages/LiftingBlog"
 
+
 export default function App({theme, setTheme}) {
     const [currentPage, setCurrentPage] = useState("");
 
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>     
+                <Route exact path="/" element={<Home theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>     
                 </Route>
-                {/* <Route exact path="/project">
-                    <Projects theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
+                <Route exact path="/project"
+                    element={<Projects theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>
                 </Route>
+                {/* 
                 <Route exact path="/skills">
                     <Skills theme={theme} setTheme={setTheme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
                 </Route>
