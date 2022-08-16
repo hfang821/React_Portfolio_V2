@@ -23,15 +23,19 @@ export default function Header({ theme, changePage }) {
     return (
         <div style={theme ? {} : { color: "white" }}>
             <Typist cursor={{ show: false }} onTypingDone={() => headerFadeIn()}>
-                <Typist.Delay ms={2000} />
+                <Typist.Delay ms={100} />
                 <h1>Hello, my name is <span style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }}>Kevin Fang</span></h1>
-                <Typist.Delay ms={500} />
+                <Typist.Delay ms={100} />
                 <h1>
-                I am a <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Front End</a>
-                <Typist.Backspace count={10} delay={500} />
-                <Typist.Delay ms={500} /> <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Back End</a>
-                <Typist.Backspace count={9} delay={500} />
-                <Typist.Delay ms={500} /> <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Full Stack Developer</a>
+                I am a <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Chemical Engineer</a>
+                <Typist.Backspace count={17} delay={100} />
+                <Typist.Delay ms={100} /> <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Advanced Powerlifter</a>
+                <Typist.Backspace count={20} delay={100} />
+                <Typist.Delay ms={100} /> <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Front-End</a>
+                <Typist.Backspace count={10} delay={100} />
+                <Typist.Delay ms={100} /> <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Back-End</a>
+                <Typist.Backspace count={9} delay={100} />
+                <Typist.Delay ms={100} /> <a style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }} href="https://github.com/hfang821">Full-Stack Developer</a>
                 </h1>
             </Typist>
             <div id="fade" className="fade">

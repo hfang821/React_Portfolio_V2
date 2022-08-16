@@ -30,16 +30,19 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
             </Row>
 
             <Row>
-                <h1 style={theme? {color: "black"} : {color: "white"}}>Projects</h1>
+                <h1 style={theme? {color: "black"} : {color: "white"}}>My Projects</h1>
                 <p style={theme? {color: "black"} : {color: "white"}}>Check out my latest projects that I've been working on</p>
             </Row>
 
             <Container>
                 <Row>
-                    <Col>
-                    {/* map all projects */}
-                    {/* <Project /> */}
-                    </Col>
+                            {projectInfo ? projectInfo.map((projectData) => {
+                                return(
+                                    <div class="col-sm">
+                                         <Project projectInfo={projectData} />
+                                    </div>
+                                )
+                            }) : ('No Project Yet.')}
                 </Row>
             </Container>
 
