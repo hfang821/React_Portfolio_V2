@@ -29,9 +29,9 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                 </Col>
             </Row>
 
-            <Row>
+            <Row style={{textAlign: 'center'}}>
                 <h1 style={theme? {color: "black"} : {color: "white"}}>My Projects</h1>
-                <p style={theme? {color: "black"} : {color: "white"}}>Check out my latest projects that I've been working on</p>
+                <p style={theme? {color: "black"} : {color: "skyblue"}}>Check out my latest projects that I've been working on</p>
             </Row>
 
             <Container>
