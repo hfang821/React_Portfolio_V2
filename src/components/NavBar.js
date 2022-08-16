@@ -54,14 +54,6 @@ export default function Nav({theme, currentPage}) {
                     </Row>
                     <Row>
                         <Col>
-                            <div onClick={(e) => changePage(e, "/contact")}>
-                                {currentPage === "contact" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
-                                <h1 className="fourth-drop-text" style={{ display: "inline" }}>Contact me</h1>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
                             <div onClick={(e) => changePage(e, "/blogs")}>
                                 {currentPage === "blogs" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} />}
                                 <h1 className="fourth-drop-text" style={{ display: "inline" }}>Blog</h1>

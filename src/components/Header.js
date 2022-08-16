@@ -15,7 +15,7 @@ export default function Header({ theme, changePage }) {
                 opacity += 0.1;
                 target.style.opacity = opacity
             } else {
-                clearInterval(0);
+                clearInterval(0); 
             }
         }
     }
