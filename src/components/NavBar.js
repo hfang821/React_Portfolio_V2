@@ -23,40 +23,40 @@ export default function Nav({theme, currentPage}) {
                     <Row>
                         <Col>
                             <div onClick={(e) => changePage(e, "/")}>
-                                {currentPage === "home" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white"}} />}
-                                <h1 className="first-drop-text" style={{ display: "inline", color: "white" }}>Home</h1>
+                                {currentPage === "home" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}} />}
+                                <h1 className={currentPage === "home"? "white-icon" : "dark-icon"} style={{ display: "inline"}}>Home</h1>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <div onClick={(e) => changePage(e, "/project")}>
-                                {currentPage === "project" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white"}}/>}
-                                <h1 className="second-drop-text" style={{ display: "inline", color: "white" }}>Projects</h1>
+                                {currentPage === "project" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}}/>}
+                                <h1 className={currentPage === "project"? "white-icon" : "dark-icon"} style={{ display: "inline"}}>Projects</h1>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <div onClick={(e) => changePage(e, "/skills")}>
-                                {currentPage === "skills" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white"}}/>}
-                                <h1 className="third-drop-text" style={{ display: "inline", color: "white" }}>Skills</h1>
+                                {currentPage === "skills" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}}/>}
+                                <h1 className={currentPage === "skills"? "white-icon" : "dark-icon"} style={{ display: "inline"}}>Skills</h1>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <div onClick={(e) => changePage(e, "/about")}>
-                                {currentPage === "about" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white"}}/>}
-                                <h1 className="fourth-drop-text" style={{ display: "inline", color: "white" }}>About Me</h1>
+                                {currentPage === "about" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}}/>}
+                                <h1 className={currentPage === "about"? "white-icon" : "dark-icon"} style={{ display: "inline" }}>About Me</h1>
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <div onClick={(e) => changePage(e, "/blogs")}>
-                                {currentPage === "blogs" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white"}}/>}
-                                <h1 className="fourth-drop-text" style={{ display: "inline", color: "white" }}>Blog</h1>
+                                {currentPage === "blogs" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}}/>}
+                                <h1 className={currentPage === "blogs"? "white-icon" : "dark-icon"} style={{ display: "inline" }}>Blog</h1>
                             </div>
                         </Col>
                     </Row>

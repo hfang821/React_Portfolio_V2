@@ -42,10 +42,10 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                         <p>I firmly believe that Web Development is the place where I can solve problems that others haven't solved yet.</p>
                         <p>During my spare time, I enjoy powerlifting & bodybuilding, reading a sci-fi comic book or making a fine glass of cocktail for my family and friends.</p>
                         <Col style={{marginTop:'20px'}}>
-                            <a href="https://www.linkedin.com/in/haoyufang" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i className="devicon-linkedin-plain" style={{margin:'0 60px 0 0', fontSize:'30px'}} ></i></a>
-                            <a href="https://github.com/hfang821" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i className="devicon-github-original" style={{margin:'0 60px 0 0', fontSize:'30px'}}></i></a>
-                            <a href="mailto:kevinfang1996@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} style={{color:'white', margin:'0 60px 0 0', paddingBottom:'3px', fontSize:'25px'}}></FontAwesomeIcon></a>
-                            <a href={Resume} target='_blank' style={{textDecoration: 'none', color:'inherit', fontSize:'20px'}}>Resume</a>
+                            <p style={{display:'inline-block'}}><a href="https://www.linkedin.com/in/haoyufang" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i className="devicon-linkedin-plain" style={{margin:'0 60px 0 0', fontSize:'30px'}} ></i></a></p>
+                            <p style={{display:'inline-block'}}><a href="https://github.com/hfang821" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i className="devicon-github-original" style={{margin:'0 60px 0 0', fontSize:'30px'}}></i></a></p>
+                            <p style={{display:'inline-block'}}><a href="mailto:kevinfang1996@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} style={{color:'white', margin:'0 60px 0 0', paddingBottom:'3px', fontSize:'25px'}}></FontAwesomeIcon></a></p>
+                            <p style={{display:'inline-block', position:'relative', bottom:'7px'}}><a href={Resume} target='_blank' style={{textDecoration: 'none', color:'inherit', fontSize:'20px'}}>Resume</a></p>
                         </Col>
                     </Col>
 
