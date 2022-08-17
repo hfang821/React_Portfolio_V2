@@ -4,6 +4,9 @@ import Nav from "../../components/NavBar";
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
+import Resume from '../../utils/Kevin_Fang_Resume.pdf'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate  } from "react-router-dom";
 
 export default function Projects({ theme, currentPage, setCurrentPage }) {
@@ -12,7 +15,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
     useEffect(()=>{
         setCurrentPage("about"); 
     })
-
+    
     const changePage = (e, link) => {
         e.preventDefault();
         navigate(link);
@@ -37,6 +40,12 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                         <p>I studied chemical engineering at the University of Western Ontario, Business Management at the Schulich School of Business.</p>
                         <p>With my passion and interest in evolving technologies, I have decided to bring my problem solving skills, creativity into the web development field.</p> 
                         <p>During my spare time, I enjoy powerlifting & bodybuilding, reading a sci-fi comic book or making a fine glass of cocktail for my family and friends.</p>
+                        <Col style={{marginTop:'20px'}}>
+                            <a href="https://www.linkedin.com/in/haoyufang" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i class="devicon-linkedin-plain" style={{margin:'0 60px 0 0', fontSize:'30px'}} ></i></a>
+                            <a href="https://github.com/hfang821" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i class="devicon-github-original" style={{margin:'0 60px 0 0', fontSize:'30px'}}></i></a>
+                            <a href="mailto:kevinfang1996@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} style={{color:'white', margin:'0 60px 0 0', paddingBottom:'3px', fontSize:'25px'}}></FontAwesomeIcon></a>
+                            <a href={Resume} target='_blank' style={{textDecoration: 'none', color:'inherit', fontSize:'20px'}}>Resume</a>
+                        </Col>
                     </Col>
 
                 </Row>

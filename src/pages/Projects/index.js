@@ -35,12 +35,12 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
             </Row>
 
             <Container>
-                <Row>
+                <Row style={{marginTop:'1%'}}>
                             {projectInfo ? projectInfo.map((projectData) => {
                                 return(
-                                    <div class="col-sm">
+                                    <Col style={{textAlign: 'center'}}>
                                          <Project projectInfo={projectData} />
-                                    </div>
+                                    </Col>
                                 )
                             }) : ('No Project Yet.')}
                 </Row>
