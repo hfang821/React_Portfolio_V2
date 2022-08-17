@@ -35,7 +35,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
             </Row>
 
             </Container>
-            <Footer theme={theme} />
+            <Footer theme={theme}/>
         </div>
     )
 }
