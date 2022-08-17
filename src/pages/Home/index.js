@@ -23,7 +23,7 @@ export default function Home({theme, currentPage, setCurrentPage}){
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <Nav />
+                    <Nav theme={theme} currentPage={currentPage}/>
                 </div>
             </div>
             <div className="row justify-content-md-center" id="header">

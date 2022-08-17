@@ -25,7 +25,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
         <Container>
             <Row>
                 <Col>
-                    <Nav />
+                    <Nav theme={theme} currentPage={currentPage}/>
                 </Col>
             </Row>
 

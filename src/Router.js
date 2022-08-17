@@ -21,10 +21,10 @@ export default function App({theme, setTheme}) {
                 <Route exact path="/skills"
                     element={<Skills theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>
                 </Route>
-                {/* 
-                <Route exact path="/about">
-                    <About theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
+                <Route exact path="/about"
+                    element={<About theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>
                 </Route>
+                {/* 
                 <Route exact path="/blogs">
                     <LiftingBlog theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
                 </Route> */}
