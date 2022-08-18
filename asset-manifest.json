@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio_V2/static/css/main.014dd538.css",
+    "main.js": "/React_Portfolio_V2/static/js/main.f9dcc0bb.js",
+    "static/media/Kevin_Fang_Resume.pdf": "/React_Portfolio_V2/static/media/Kevin_Fang_Resume.eca9594cfb0a2dc065bb.pdf",
+    "index.html": "/React_Portfolio_V2/index.html",
+    "main.014dd538.css.map": "/React_Portfolio_V2/static/css/main.014dd538.css.map",
+    "main.f9dcc0bb.js.map": "/React_Portfolio_V2/static/js/main.f9dcc0bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.014dd538.css",
+    "static/js/main.f9dcc0bb.js"
+  ]
+}
