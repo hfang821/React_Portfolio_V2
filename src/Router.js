@@ -11,7 +11,7 @@ export default function App({theme, setTheme}) {
     const [currentPage, setCurrentPage] = useState("");
 
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <Routes>
                 <Route exact path="/" element={<Home theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>     
                 </Route>
