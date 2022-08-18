@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React_Portfolio_V2/static/css/main.014dd538.css",
-    "main.js": "/React_Portfolio_V2/static/js/main.f9dcc0bb.js",
-    "static/media/Kevin_Fang_Resume.pdf": "/React_Portfolio_V2/static/media/Kevin_Fang_Resume.eca9594cfb0a2dc065bb.pdf",
-    "index.html": "/React_Portfolio_V2/index.html",
-    "main.014dd538.css.map": "/React_Portfolio_V2/static/css/main.014dd538.css.map",
-    "main.f9dcc0bb.js.map": "/React_Portfolio_V2/static/js/main.f9dcc0bb.js.map"
+    "main.css": "/react_portfolio_v2/static/css/main.014dd538.css",
+    "main.js": "/react_portfolio_v2/static/js/main.bb495295.js",
+    "static/media/Kevin_Fang_Resume.pdf": "/react_portfolio_v2/static/media/Kevin_Fang_Resume.eca9594cfb0a2dc065bb.pdf",
+    "index.html": "/react_portfolio_v2/index.html",
+    "main.014dd538.css.map": "/react_portfolio_v2/static/css/main.014dd538.css.map",
+    "main.bb495295.js.map": "/react_portfolio_v2/static/js/main.bb495295.js.map"
   },
   "entrypoints": [
     "static/css/main.014dd538.css",
-    "static/js/main.f9dcc0bb.js"
+    "static/js/main.bb495295.js"
   ]
 }
