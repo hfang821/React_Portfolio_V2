@@ -1,7 +1,7 @@
 {
   "name": "react_portfolio_v2",
   "version": "0.1.0",
-  "homepage": "https://hfang821.github.io/React_Portfolio_V2",
+  "homepage": "https://hfang821.github.io/react_portfolio_v2",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.0",
