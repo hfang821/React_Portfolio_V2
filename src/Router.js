@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
-import LiftingBlog from "./pages/LiftingBlog"
+import Blog from "./pages/Blog"
 
 
 export default function App({theme, setTheme}) {
@@ -24,10 +24,9 @@ export default function App({theme, setTheme}) {
                 <Route exact path="/about"
                     element={<About theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>
                 </Route>
-                {/* 
-                <Route exact path="/blogs">
-                    <LiftingBlog theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />
-                </Route> */}
+                <Route exact path="/blogs"
+                    element={<Blog theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} style={{overflow: 'scroll'}}/>}>
+                </Route>
             </Routes>
         </Router>
     )

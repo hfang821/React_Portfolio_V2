@@ -15,10 +15,10 @@ export default function Nav({theme, currentPage}) {
     };
 
     return (
-        <Navbar collapseOnSelect expand="xs" variant={theme ? "light" : "dark"}>
+        <Navbar collapseOnSelect expand="xs" variant={theme ? "light" : "dark"} style={{flexWrap: "nowrap"}}>
             <Navbar.Brand className="op0"></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav" className={theme ? "dropdown" : "dropdown-dark"}>
+            <Navbar.Collapse id="responsive-navbar-nav" className={theme ? "dropdown" : "dropdown-dark"} style={{marginLeft: "20px"}}>
             <Container className={theme ? "dropdown-border" : "dropdown-border-dark"}>
                     <Row>
                         <Col>

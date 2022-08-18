@@ -2,8 +2,16 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 export default function Skills({theme}) {
+    const renderTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props}>
+          JavaScript
+        </Tooltip>
+      );
+
     return (
         <Container>
             <Row>
@@ -13,9 +21,16 @@ export default function Skills({theme}) {
                 </Col>
             </Row>
 
+
             <Row style={{textAlign: 'center', color: "white", fontSize: "60px"}}>
                 <Col>
+                <OverlayTrigger
+                    placement="right"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={renderTooltip}
+                >
                     <i className="devicon-javascript-plain"></i>
+                    </OverlayTrigger>
                 </Col>
                 <Col>
                     <i className="devicon-html5-plain"></i>
@@ -84,6 +99,7 @@ export default function Skills({theme}) {
                     <i className="devicon-amazonwebservices-plain-wordmark"></i>
                 </Col>
             </Row>
+
         </Container>
     )
 }
