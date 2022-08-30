@@ -4,7 +4,8 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
-import Blog from "./pages/Blog"
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
 
 
 export default function App({theme, setTheme}) {
@@ -26,6 +27,9 @@ export default function App({theme, setTheme}) {
                 </Route>
                 <Route exact path="/blogs"
                     element={<Blog theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} style={{overflow: 'scroll'}}/>}>
+                </Route>
+                <Route exact path="/contact"
+                    element={<Contact theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} style={{overflow: 'scroll'}}/>}>
                 </Route>
             </Routes>
         </Router>

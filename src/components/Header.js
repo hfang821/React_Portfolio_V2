@@ -37,7 +37,7 @@ export default function Header({ theme, changePage }) {
             <div id="fade" className="fade">
                 <div>
                     <h3>Check out my <span className={theme ? "h-link" : "h-link-dark"} onClick={(e) => changePage(e, "/project")}>projects page</span> to see my latest projects.</h3>
-                    <h3>Or you can contact me directly through my <span className={theme ? "h-link" : "h-link-dark"} onClick={(e) => changePage(e, "/contact")}>about page.</span></h3>
+                    <h3>Or you can contact me directly through my <button className={theme ? "h-link" : "h-link-dark"} onClick={(e) => changePage(e, "/contact")} style={{color: 'skyblue', backgroundColor: 'transparent', border:'0px'}}>contact page.</button></h3>
                 </div>
             </div>
         </div>
