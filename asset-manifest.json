@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react_portfolio_v2/static/css/main.014dd538.css",
-    "main.js": "/react_portfolio_v2/static/js/main.cdcda232.js",
-    "static/media/Kevin_Fang_Resume.pdf": "/react_portfolio_v2/static/media/Kevin_Fang_Resume.eca9594cfb0a2dc065bb.pdf",
-    "index.html": "/react_portfolio_v2/index.html",
-    "main.014dd538.css.map": "/react_portfolio_v2/static/css/main.014dd538.css.map",
-    "main.cdcda232.js.map": "/react_portfolio_v2/static/js/main.cdcda232.js.map"
+    "main.css": "/static/css/main.014dd538.css",
+    "main.js": "/static/js/main.53a556e7.js",
+    "static/media/Kevin_Fang_Resume.pdf": "/static/media/Kevin_Fang_Resume.eca9594cfb0a2dc065bb.pdf",
+    "index.html": "/index.html",
+    "main.014dd538.css.map": "/static/css/main.014dd538.css.map",
+    "main.53a556e7.js.map": "/static/js/main.53a556e7.js.map"
   },
   "entrypoints": [
     "static/css/main.014dd538.css",
-    "static/js/main.cdcda232.js"
+    "static/js/main.53a556e7.js"
   ]
 }
