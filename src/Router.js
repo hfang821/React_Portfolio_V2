@@ -12,7 +12,7 @@ export default function App({theme, setTheme}) {
     const [currentPage, setCurrentPage] = useState("");
 
     return (
-        <Router basename="/react_portfolio_v2">
+        <Router basename="/">
             <Routes>
                 <Route exact path="/" element={<Home theme={theme} currentPage={currentPage} setCurrentPage={setCurrentPage} />}>     
                 </Route>
