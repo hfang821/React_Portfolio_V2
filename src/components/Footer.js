@@ -6,7 +6,7 @@ import "../pages/Home/index.css";
 export default function Footer({ theme, currentPage, setCurrentPage}) {
 
     return (
-        <Navbar className={theme ? "footer" : "footer-dark"} fixed="bottom" variant="dark" style={{ justifyContent: "center" }}>
+        <Navbar className={theme ? "footer" : "footer-dark"} fixed="bottom" variant="dark" style={{ justifyContent: "center", fontFamily:'Montserrat' }}>
             <p style={{textAlign: 'center'}}>
                 &copy; {new Date().getFullYear()} Copyright: <a href="https://github.com/hfang821" style={theme ? { color: "black" } : { color: "white" }}> Kevin Fang </a>
                 <Typist cursor={{ show: false }}>

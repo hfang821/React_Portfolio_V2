@@ -49,8 +49,8 @@ export default function Project({ color, projectInfo, num, theme }) {
 
   
     return(
-        <div className="contact">
-    <h1 style={{color: 'white', marginBottom: '34px', marginLeft: '2%'}}>Contact Me</h1>
+        <div className="contact" style={{fontFamily:'Montserrat'}}>
+    <h1 style={{color: 'white', marginBottom: '34px', marginLeft: '2%', fontFamily:'Open Sans'}}>Contact Me</h1>
   <form onSubmit={handleFormSubmit}>
       <div class="mb-3" style={{width:"41%", marginLeft:"30%"}}>
         <label for="exampleInputPassword1" class="form-label" style={{color: 'skyblue'}}>Subject</label>

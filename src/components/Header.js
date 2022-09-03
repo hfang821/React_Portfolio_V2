@@ -21,7 +21,7 @@ export default function Header({ theme, changePage }) {
     }
 
     return (
-        <div style={theme ? {} : { color: "white" }}>
+        <div style={theme ? {} : { color: "white"}}>
             <Typist cursor={{ show: false }} onTypingDone={() => headerFadeIn()}>
                 <Typist.Delay ms={300} />
                 <h1>Hello, my name is <span style={theme ? { color: "#8900f2" } : { color: "#7bdff2" }}>Kevin Fang</span></h1>

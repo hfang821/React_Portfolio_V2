@@ -30,8 +30,8 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
             </Row>
 
             <Row style={{textAlign: 'center'}}>
-                <h1 style={theme? {color: "black"} : {color: "white"}}>My Projects</h1>
-                <p style={theme? {color: "black"} : {color: "skyblue"}}>Check out my latest projects that I've been working on</p>
+                <h1 style={theme? {color: "black"} : {color: "white", fontFamily:'Open Sans'}}>My Projects</h1>
+                <p style={theme? {color: "black"} : {color: "skyblue", fontFamily:'Montserrat'}}>Check out my latest projects that I've been working on</p>
             </Row>
 
             <Container>

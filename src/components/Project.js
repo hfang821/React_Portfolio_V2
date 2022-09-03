@@ -11,15 +11,15 @@ export default function Project({ color, projectInfo, num, theme }) {
     };
 
     return ( 
-        <Box width='300px'>
-            <Card>
-                <CardMedia component='img' height='140' image={projectInfo.icon} alt={projectInfo.name}/>
+        <Box width='300px' style={{marginTop:'4%'}}>
+            <Card style={{backgroundColor:"LightBlue"}}>
+                <CardMedia component='img' height='160' image={projectInfo.icon} alt={projectInfo.name}/>
 
                 <CardContent>
                     <Typography gutterBottom variant="h5" component='div'>
-                        {projectInfo.name}
+                        <i style={{fontFamily:'Montserrat'}}>{projectInfo.name}</i>
                     </Typography>
-                    <Typography variant='body2' color='text.secondary'>
+                    <Typography variant='body2' color='text.secondary' style={{fontFamily:'Open Sans'}}>
                         {projectInfo.description}
                     </Typography>
                 </CardContent>
@@ -28,14 +28,14 @@ export default function Project({ color, projectInfo, num, theme }) {
                     {projectInfo.technologies.map((tools) => {
                         return (
                                 <Col style={{display: 'inline-block', padding:'1px'}}>
-                                    <Chip label={tools} style={{blockSize:'15px', fontSize:'10px', backgroundColor: "#f5f2ea"}} color="primary" variant="outlined" />
+                                    <Chip label={tools} style={{blockSize:'15px', fontSize:'10px', backgroundColor: "#f5f2ea", fontFamily:'Open Sans'}} color="primary" variant="outlined" />
                                 </Col>
                         )})}
                 </Row>
 
                 <CardActions>
-                    <Button size='small' onClick={(event)=>handleClick(event,projectInfo.github)}>Github</Button> <br></br>
-                    <Button size='small' onClick={(event)=>handleClick(event,projectInfo.deployment)}>Deployment</Button>
+                    <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.github)}>Github</Button> <br></br>
+                    <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.deployment)}>Deployment</Button>
                 </CardActions>            
             </Card>
         </Box>

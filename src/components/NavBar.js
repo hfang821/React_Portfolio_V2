@@ -19,7 +19,7 @@ export default function Nav({theme, currentPage}) {
             <Navbar.Brand className="op0"></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className={theme ? "dropdown" : "dropdown-dark"} style={{marginLeft: "20px"}}>
-            <Container className={theme ? "dropdown-border" : "dropdown-border-dark"}>
+            <Container className={theme ? "dropdown-border" : "dropdown-border-dark"} style={{fontFamily:'Open Sans'}}>
                     <Row>
                         <Col>
                             <button onClick={(e) => changePage(e, "/")} style={{backgroundColor: 'transparent', border:'0px', color:'#343a40'}}>
@@ -48,7 +48,7 @@ export default function Nav({theme, currentPage}) {
                         <Col>
                             <button onClick={(e) => changePage(e, "/about")} style={{backgroundColor: 'transparent', border:'0px', color:'#343a40'}}>
                                 {currentPage === "about" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}}/>}
-                                <h1 className={currentPage === "about"? "white-icon" : "dark-icon"} style={{ display: "inline" }}>About Me</h1>
+                                <h1 className={currentPage === "about"? "white-icon" : "dark-icon"} style={{ display: "inline" }}>About</h1>
                             </button>
                         </Col>
                     </Row>
