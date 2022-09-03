@@ -1,8 +1,4 @@
 import React, {useState} from 'react';
-import Container from 'react-bootstrap/esm/Container';
-import Row from 'react-bootstrap/esm/Row';
-import Col from 'react-bootstrap/esm/Col';
-import {Box, Card, CardContent, CardActions, Typography, Button, CardMedia, Stack, Chip} from '@mui/material';
 import { validateEmail } from '../utils/helpers';
 import emailjs from 'emailjs-com';
 
@@ -13,7 +9,7 @@ export default function Project({ color, projectInfo, num, theme }) {
     const [Subject, setSubject] = useState('');
   
     const handleInputChange = (e) => {
-      // Getting the value and name of the input which triggered the change
+
       const { target } = e;
       const inputType = target.name;
       const inputValue = target.value;

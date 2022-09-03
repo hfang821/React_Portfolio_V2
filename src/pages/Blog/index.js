@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Footer from '../../components/Footer';
 import Nav from "../../components/NavBar";
 import Container from 'react-bootstrap/esm/Container';
@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/esm/Col';
 import Blog from '../../components/Blog';
 import blogInfo from '../../utils/blogInfo';
 import { useNavigate  } from "react-router-dom";
-import { Timeline, TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent } from '@mui/lab';
+import { Timeline } from '@mui/lab';
 
 export default function Blogs({ theme, currentPage, setCurrentPage }) {
     const navigate = useNavigate();

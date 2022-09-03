@@ -1,7 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
 import { TimelineOppositeContent , TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent } from '@mui/lab';
 
 export default function Project({ color, blogInfo, num, theme }) {
