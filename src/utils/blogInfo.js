@@ -12,8 +12,9 @@ const blogs = [
         name: "My Fitness and Powerlifting Journey",
         date: "09/11/2022",
         icon: "https://user-images.githubusercontent.com/95199209/185308329-d154d30e-a8ec-46fd-9a13-490290ba972c.png",
-        description: "- Participant in the upcoming Strength in the Valley Powerlifting Competition",
-        link: "https://ontariopowerlifting.org/event/strength-in-the-valley/"
+        description: 'Participant in the upcoming "Strength in the Valley" Powerlifting Competition',
+        link: "https://ontariopowerlifting.org/event/strength-in-the-valley/",
+        location: "Hamilton, ON"
     },
     {
         name: "Becoming a developer has been my driving force to learn new technologies",

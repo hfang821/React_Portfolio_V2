@@ -35,11 +35,11 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                     <Col>
                         <img src={BanffImg} width='95%' alt='Trip in Banff' style={{borderRadius:'5%', marginTop:'14%'}}></img>
                     </Col>
-                    <Col style={{color: "white", marginTop:"6%",textAlign:"left", fontFamily:'Montserrat'}}>
+                    <Col style={{color: "white", marginTop:"9%",textAlign:"left", fontFamily:'Montserrat'}}>
                         <h3 style={{color:"skyblue", fontFamily:'Open Sans'}}>Kevin Fang</h3>
                         <p>Hi there! I am a full-stack web developer located in Toronto, ON.</p>
                         <p>I studied chemical engineering at the University of Western Ontario, Business Management at the Schulich School of Business.</p>
-                        <p>With my passion and interest in evolving technologies, I have decided to bring my problem solving skills, creativity into the web development field.</p>
+                        <p>With my passion and interest in evolving technologies, I decided to bring my problem solving skills, creativity into web development field.</p>
                         <p>I firmly believe that Web Development is the place where I can solve problems that others haven't solved yet.</p>
                         <p>During my spare time, I enjoy powerlifting & bodybuilding, reading a sci-fi comic book or making a fine glass of cocktail for my family and friends.</p>
                         <Col style={{marginTop:'20px'}}>
