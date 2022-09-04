@@ -34,7 +34,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                 <p style={theme? {color: "black"} : {color: "skyblue", fontFamily:'Montserrat'}}>Check out my latest projects that I've been working on</p>
             </Row>
 
-            <Container>
+            <Container style={{marginLeft:'5%'}}>
                 <Row style={{marginTop:'1%'}}>
                             {projectInfo ? projectInfo.map((projectData) => {
                                 return(

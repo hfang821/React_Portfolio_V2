@@ -19,7 +19,7 @@ export default function Nav({theme, currentPage}) {
             <Navbar.Brand className="op0"></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className={theme ? "dropdown" : "dropdown-dark"} style={{marginLeft: "20px"}}>
-            <Container className={theme ? "dropdown-border" : "dropdown-border-dark"} style={{fontFamily:'Open Sans'}}>
+            <Container className={theme ? "dropdown-border" : "dropdown-border-dark"} style={{fontFamily:'Roboto Slab'}}>
                     <Row>
                         <Col>
                             <button onClick={(e) => changePage(e, "/")} style={{backgroundColor: 'transparent', border:'0px', color:'#343a40'}}>

@@ -5,7 +5,7 @@ const projects = [
         description: "A Travel Planner App that will reduce travel planning time. Users can plan out their trips at ease based on other users' plans in the Feed.",
         github: "https://github.com/mikyurkev/Most_to_Coast_v2",
         deployment: "https://most-to-coast.herokuapp.com/",
-        technologies: ['React.js', 'MongoDB', 'Express.js','Node.js', 'GraphQL', 'JWT', 'Apollo-Server', 'Apollo-Client']
+        technologies: ['React.js', 'MongoDB', 'Express.js','Node.js', 'GraphQL', 'JWT', 'Apollo-Server']
     },
 
     {

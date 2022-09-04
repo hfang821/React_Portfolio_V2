@@ -11,7 +11,7 @@ export default function Project({ color, projectInfo, num, theme }) {
     };
 
     return ( 
-        <Box width='300px' style={{marginTop:'4%'}}>
+        <Box width='300px' style={{marginTop:'4%', borderRadius:'5px'}}>
             <Card style={{backgroundColor:"LightBlue"}}>
                 <CardMedia component='img' height='160' image={projectInfo.icon} alt={projectInfo.name}/>
 
@@ -27,8 +27,8 @@ export default function Project({ color, projectInfo, num, theme }) {
                 <Row>
                     {projectInfo.technologies.map((tools) => {
                         return (
-                                <Col style={{display: 'inline-block', padding:'1px'}}>
-                                    <Chip label={tools} style={{blockSize:'15px', fontSize:'10px', backgroundColor: "#f5f2ea", fontFamily:'Open Sans'}} color="primary" variant="outlined" />
+                                <Col style={{display: 'inline-block', paddingLeft:'1px'}}>
+                                    <Chip label={tools} style={{blockSize:'13px', fontSize:'10px', backgroundColor: "#f5f2ea", fontFamily:'Open Sans', padding:'3px 0px 3px 0px'}} color="primary" variant="outlined" />
                                 </Col>
                         )})}
                 </Row>
