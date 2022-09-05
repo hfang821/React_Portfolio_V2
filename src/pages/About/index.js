@@ -9,6 +9,7 @@ import BanffImg from '../../utils/Banff.jpg';
 import MountainImg from '../../utils/Mountain.jpg';
 import TownImg from '../../utils/Kleinberg.jpg';
 import LiftImg from '../../utils/Lift.png';
+import PetImg from '../../utils/myPet.jpg';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,7 +28,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
         navigate(link);
     };
 
-    const images = [BanffImg, MountainImg,TownImg, LiftImg];
+    const images = [PetImg, BanffImg, MountainImg,TownImg, LiftImg];
 
     const properties = {
         prevArrow: <button style={{display: 'none'}}></button>,
@@ -46,7 +47,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                     <Col style={{maxWidth:"45%", marginTop:'%'}}>
                         <Slide {...properties}>
                             <div className="each-slide-effect">
-                                    <img src={images[0]} width='90%' alt='Trip in Lake Louise' style={{borderRadius:'5%', marginTop:'14%'}}></img>
+                                    <img src={images[0]} width='90%' alt='My Pet' style={{borderRadius:'5%', marginTop:'14%'}}></img>
                             </div>
                             <div className="each-slide-effect">
                                     <img src={images[1]} width='90%' alt='Trip in Banff' style={{borderRadius:'5%', marginTop:'14%'}}></img>
@@ -56,6 +57,9 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                             </div>
                             <div className="each-slide-effect">
                                     <img src={images[3]} width='90%' alt='Powerlifting Hobby' style={{borderRadius:'5%', marginTop:'14%'}}></img>
+                            </div>
+                            <div className="each-slide-effect">
+                                    <img src={images[4]} width='90%' alt='Trip in Lake Louise' style={{borderRadius:'5%', marginTop:'14%'}}></img>
                             </div>
                         </Slide> 
                     </Col>
