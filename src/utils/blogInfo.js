@@ -17,8 +17,8 @@ const blogs = [
     {
         name: "My Fitness and Powerlifting Journey",
         date: "",
-        icon: "https://user-images.githubusercontent.com/95199209/185308329-d154d30e-a8ec-46fd-9a13-490290ba972c.png",
-        description: 'Participant in the upcoming "Strength in the Valley" Powerlifting Competition',
+        icon: "https://user-images.githubusercontent.com/95199209/190017750-4fadccdd-5413-42af-9e21-6e5e93840a1e.jpg",
+        description: 'Placed 2nd in the 83kg weight class of "Strength in the Valley" Powerlifting Competition',
         link: "https://ontariopowerlifting.org/event/strength-in-the-valley/",
         location: "Hamilton, ON"
     },
