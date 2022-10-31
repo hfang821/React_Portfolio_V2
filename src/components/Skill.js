@@ -33,6 +33,7 @@ export default function Skills({theme}) {
                     </OverlayTrigger>
                 </Col>
                 <Col>
+                
                 <OverlayTrigger
                     placement="right"
                     delay={{ show: 250, hide: 400 }}
@@ -55,22 +56,22 @@ export default function Skills({theme}) {
                 <OverlayTrigger
                     placement="right"
                     delay={{ show: 250, hide: 400 }}
+                    overlay={renderTooltip('php')}
+                >
+                    <i class="devicon-php-plain"></i>
+                    </OverlayTrigger>
+                </Col>
+                <Col>
+                <OverlayTrigger
+                    placement="right"
+                    delay={{ show: 250, hide: 400 }}
                     overlay={renderTooltip('React.js')}
                 >
                     <i className="devicon-react-original"></i>
                     </OverlayTrigger>
 
                 </Col>
-                <Col>
-                <OverlayTrigger
-                    placement="right"
-                    delay={{ show: 250, hide: 400 }}
-                    overlay={renderTooltip('Handlebars.js')}
-                >
-                    <i className="devicon-handlebars-plain-wordmark"></i>
-                    </OverlayTrigger>
 
-                </Col>
             </Row>
 
             <Row style={{textAlign: 'center', color: "white", fontSize: "60px"}}>
