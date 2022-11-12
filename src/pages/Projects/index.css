@@ -1,0 +1,32 @@
+.box{
+    opacity: .6;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,.8);
+    transition: 1.5s;
+}
+
+
+.box:hover {
+      transform: translateY(0);
+      opacity: 1;
+      box-shadow:
+          inset 0 0 60px whitesmoke,
+          inset 20px 0 80px #f0f,
+          inset -20px 0 80px #0ff,
+          inset 20px 0 300px #f0f,
+          inset -20px 0 300px #0ff,
+          0 0 50px #fff,
+          -10px 0 80px #f0f,
+          10px 0 80px #0ff;
+    transform: scale3d(1.1,1.1,1.1);
+}
+  
+
+/* .content{
+    visibility: hidden;
+}
+
+.content:hover{
+    visibility: visible;
+} */

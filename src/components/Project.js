@@ -11,10 +11,10 @@ export default function Project({ color, projectInfo, num, theme }) {
     };
 
     return ( 
-        <Box width='300px' style={{marginTop:'4%', borderRadius:'5px'}}>
+        <Box width='300px' style={{marginTop:'4%', borderRadius:'5px'}} className="box">
             <Card style={{backgroundColor:"LightBlue"}}>
                 <CardMedia component='img' height='160' image={projectInfo.icon} alt={projectInfo.name}/>
-
+                <div className="content">
                 <CardContent>
                     <Typography gutterBottom variant="h5" component='div'>
                         <i style={{fontFamily:'Montserrat'}}>{projectInfo.name}</i>
@@ -36,7 +36,8 @@ export default function Project({ color, projectInfo, num, theme }) {
                 <CardActions>
                     <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.github)}>Github</Button> <br></br>
                     <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.deployment)}>Deployment</Button>
-                </CardActions>            
+                </CardActions>   
+                </div>
             </Card>
         </Box>
     )
