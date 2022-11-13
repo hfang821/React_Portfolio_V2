@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+import './index.css';
 
 export default function Nav({theme, currentPage}) {
     const navigate = useNavigate();
@@ -31,7 +32,7 @@ export default function Nav({theme, currentPage}) {
                     <Row>
                         <Col>
                             <button onClick={(e) => changePage(e, "/project")} style={{backgroundColor: 'transparent', border:'0px', color:'#343a40'}}>
-                                {currentPage === "project" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px"}}/>}
+                                {currentPage === "project" && <FiberManualRecordIcon className={theme ? "nav-icon" : "nav-icon-dark"} style={{color: "white", position: "relative", bottom:"10px", fontSize: "15px"}}/>}
                                 <h1 className={currentPage === "project"? "white-icon" : "dark-icon"} style={{ display: "inline"}}>Projects</h1>
                             </button>
                         </Col>

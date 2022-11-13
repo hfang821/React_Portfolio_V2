@@ -1,0 +1,45 @@
+body {
+    overflow-x: hidden;
+}
+
+#block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#imageDeck {
+    flex-grow: 4;
+    max-width: 50%;
+}
+
+#intro{
+    flex-grow:4;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 488px) {
+    #block {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #imageDeck {
+        max-width: 100%;
+    }
+    
+    #intro{
+        max-width: 100%;
+        /* margin-bottom: 50px; */
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+  }

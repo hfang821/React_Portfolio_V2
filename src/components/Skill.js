@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import '../pages/Skills/index.css';
 
 export default function Skills({theme}) {
     const renderTooltip = (props) => (
@@ -22,7 +23,7 @@ export default function Skills({theme}) {
             </Row>
 
 
-            <Row style={{textAlign: 'center', color: "white", fontSize: "60px"}}>
+            <Row style={{textAlign: 'center', color: "white", fontSize: "54px"}} className="icon-row">
                 <Col>
                 <OverlayTrigger
                     placement="right"
@@ -74,7 +75,7 @@ export default function Skills({theme}) {
 
             </Row>
 
-            <Row style={{textAlign: 'center', color: "white", fontSize: "60px"}}>
+            <Row style={{textAlign: 'center', color: "white", fontSize: "54px"}} className="icon-row">
                 <Col>
                 <OverlayTrigger
                     placement="right"
@@ -125,7 +126,7 @@ export default function Skills({theme}) {
                 </Col>
             </Row>
 
-            <Row style={{textAlign: 'center', color: "white", fontSize: "60px"}}>
+            <Row style={{textAlign: 'center', color: "white", fontSize: "54px"}} className="icon-row">
                 <Col>
                 <OverlayTrigger
                     placement="right"
@@ -176,7 +177,7 @@ export default function Skills({theme}) {
                 </Col>
             </Row>
                 
-            <Row style={{textAlign: 'center', color: "white", fontSize: "60px"}}>
+            <Row style={{textAlign: 'center', color: "white", fontSize: "54px"}} className="icon-row">
                 <Col>
                 <OverlayTrigger
                     placement="right"
