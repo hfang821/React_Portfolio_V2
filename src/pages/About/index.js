@@ -46,7 +46,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                 </Row>
 
                     <Row style={{textAlign: 'center'}} id="block">
-                        <div style={{maxWidth:"45%", marginTop:'1%'}} id="imageDeck">
+                        <div style={{maxWidth:"45%"}} id="imageDeck">
                             <Slide {...properties}>
                                 <div className="each-slide-effect">
                                         <img src={images[0]} width='90%' alt='My Pet' style={{borderRadius:'5%', marginTop:'14%'}}></img>
@@ -66,7 +66,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                             </Slide> 
                         </div>
 
-                        <div style={{color: "white", marginTop:"5%",textAlign:"left", fontFamily:'Montserrat'}} id="intro">
+                        <div style={{color: "white", marginTop:"7%",textAlign:"left", fontFamily:'Montserrat'}} id="intro">
                             <h3 style={{color:"skyblue", fontFamily:'Open Sans'}}>Kevin Fang</h3>
                             <p>Hi there! I am a full-stack web developer located in Toronto, ON.</p>
                             <p>I studied chemical engineering at the University of Western Ontario, Business Management at the Schulich School of Business.</p>
@@ -78,7 +78,7 @@ export default function Projects({ theme, currentPage, setCurrentPage }) {
                                 <p style={{display:'inline-block'}}><a href="https://www.linkedin.com/in/haoyufang" target='_blank' style={{textDecoration: 'none', color:'inherit', marginLeft:'55px'}}><i className="devicon-linkedin-plain" style={{margin:'0 60px 0 0', fontSize:'30px'}} ></i></a></p>
                                 <p style={{display:'inline-block'}}><a href="https://github.com/hfang821" target='_blank' style={{textDecoration: 'none', color:'inherit'}}><i className="devicon-github-original" style={{margin:'0 60px 0 0', fontSize:'30px'}}></i></a></p>
                                 <p style={{display:'inline-block'}}><a href="mailto:kevinfang1996@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} style={{color:'white', margin:'0 60px 0 0', paddingBottom:'3px', fontSize:'25px'}}></FontAwesomeIcon></a></p>
-                                <p style={{display:'inline-block', position:'relative', bottom:'4px'}}><button target='_blank' onClick={(e) => changePage(e, "/contact")} style={{textDecoration: 'none', color:'inherit', fontSize:'20px', backgroundColor: 'white', border:'0px', borderRadius:'6px', maxHeight: '45px', padding:'0'}}><p style={{backgroundColor: 'white', border:'0px', borderRadius:'4px', maxHeight: '45px', color: 'black', fontFamily:'Hind', marginBottom:'0px'}}>Contact</p></button></p>
+                                <p style={{display:'inline-block', position:'relative', bottom:'7px'}}><button target='_blank' onClick={(e) => changePage(e, "/contact")} style={{textDecoration: 'none', color:'inherit', fontSize:'20px', backgroundColor: 'white', border:'0px', borderRadius:'6px', maxHeight: '40px', padding:'0'}}><p style={{backgroundColor: 'white', border:'0px', borderRadius:'4px', maxHeight: '45px', color: 'black', fontFamily:'Hind', marginBottom:'0px'}}>Contact</p></button></p>
                             </div>
                         </div>
 
