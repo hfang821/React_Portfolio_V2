@@ -18,7 +18,7 @@ export default function Project({ color, blogInfo, num, theme }) {
             <TimelineConnector style={{height:'250px'}}/>
           </TimelineSeparator>
           <TimelineContent>
-                    <a href={blogInfo.link}><img src={blogInfo.icon} style={{width:"50%"}} alt='blog-demo'></img></a>
+                    <a href={blogInfo.link}><img src={blogInfo.icon} style={{width:"50%", borderRadius:"6px"}} alt='blog-demo'></img></a>
           </TimelineContent>
         </TimelineItem>
  
