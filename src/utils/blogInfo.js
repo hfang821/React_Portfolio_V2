@@ -19,7 +19,7 @@ const blogs = [
         date: "",
         icon: "https://user-images.githubusercontent.com/95199209/190017750-4fadccdd-5413-42af-9e21-6e5e93840a1e.jpg",
         description: 'Placed 2nd in the 83kg weight class of "Strength in the Valley" Powerlifting Competition',
-        link: "https://ontariopowerlifting.org/event/strength-in-the-valley/",
+        link: "https://www.powerlifting.ca/lifter_database/external/contest_results.php?contest=DVP%20Strength%20In%20the%20Valley",
         location: "Hamilton, ON"
     },
     {
