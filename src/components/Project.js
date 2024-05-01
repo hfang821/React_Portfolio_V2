@@ -35,7 +35,11 @@ export default function Project({ color, projectInfo, num, theme }) {
 
                 <CardActions>
                     <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.github)}>Github</Button> <br></br>
-                    <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.deployment)}>Deployment</Button>
+                    {projectInfo.deployment ? <Button size='small' style ={{color:'SteelBlue', fontFamily:'Open Sans'}} onClick={(event)=>handleClick(event,projectInfo.deployment)}>Deployment</Button> : 
+                        <Typography variant='p' color='text.secondary' style={{fontFamily:'Open Sans', fontSize: '0.75rem', marginLeft: '4rem', color: 'white'}}>
+                            *Site is under construction
+                        </Typography>
+                    }
                 </CardActions>   
                 </div>
             </Card>
