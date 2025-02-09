@@ -57,9 +57,9 @@ export default function Skills({theme}) {
                 <OverlayTrigger
                     placement="right"
                     delay={{ show: 250, hide: 400 }}
-                    overlay={renderTooltip('php')}
+                    overlay={renderTooltip('Angular.js')}
                 >
-                    <i class="devicon-php-plain"></i>
+                   <i className="devicon-angularjs-plain"></i>
                     </OverlayTrigger>
                 </Col>
                 <Col>
@@ -80,9 +80,9 @@ export default function Skills({theme}) {
                 <OverlayTrigger
                     placement="right"
                     delay={{ show: 250, hide: 400 }}
-                    overlay={renderTooltip('Bootstrap 5')}
+                    overlay={renderTooltip('TypeScript')}
                 >
-                    <i className="devicon-bootstrap-plain-wordmark"></i>
+                    <i className="devicon-typescript-plain"></i>
                     </OverlayTrigger>
 
                 </Col>
@@ -229,7 +229,7 @@ export default function Skills({theme}) {
 
                 </Col>
             </Row>
-            <Row style={{textAlign: 'center', color: "white", fontSize: "20px", marginTop: '2%', color:'skyblue',fontFamily:'Montserrat'}}>
+            <Row style={{ textAlign: 'center', color: "white", fontSize: "20px", marginTop: '2rem', color:'skyblue', fontFamily:'Montserrat' }}>
                 <Col>
                     <i>And Many More to Come...</i>
                 </Col>
