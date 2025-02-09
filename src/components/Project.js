@@ -1,9 +1,9 @@
 import React from 'react';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
-import {Box, Card, CardContent, CardActions, Typography, Button, CardMedia, Stack, Chip} from '@mui/material';
+import {Box, Card, CardContent, CardActions, Typography, Button, CardMedia, Chip} from '@mui/material';
 
-export default function Project({ color, projectInfo, num, theme }) {
+export default function Project({ projectInfo }) {
     const handleClick = (event, link) => {
         event.preventDefault();
         window.location.replace(link);

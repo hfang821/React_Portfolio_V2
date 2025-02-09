@@ -229,7 +229,7 @@ export default function Skills({theme}) {
 
                 </Col>
             </Row>
-            <Row style={{ textAlign: 'center', color: "white", fontSize: "20px", marginTop: '2rem', color:'skyblue', fontFamily:'Montserrat' }}>
+            <Row style={{ textAlign: 'center', fontSize: "20px", marginTop: '2rem', color:'skyblue', fontFamily:'Montserrat' }}>
                 <Col>
                     <i>And Many More to Come...</i>
                 </Col>
