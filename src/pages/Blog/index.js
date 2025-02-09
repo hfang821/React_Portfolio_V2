@@ -6,20 +6,13 @@ import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Blog from '../../components/Blog';
 import blogInfo from '../../utils/blogInfo';
-import { useNavigate  } from "react-router-dom";
 import { Timeline } from '@mui/lab';
 
 export default function Blogs({ theme, currentPage, setCurrentPage }) {
-    const navigate = useNavigate();
 
     useEffect(()=>{
         setCurrentPage("blogs"); 
     })
-    
-    const changePage = (e, link) => {
-        e.preventDefault();
-        navigate(link);
-    };
 
     return (
         <Container>
