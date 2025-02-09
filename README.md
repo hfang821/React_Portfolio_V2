@@ -1,1 +1,1 @@
-<a href="https://kevinf.tech">Deployed Portfolio Link</a>
+<a href="https://main--kevinf.netlify.app">Deployed Portfolio Link</a>
